@@ -4,6 +4,47 @@
 <meta charset="UTF-8">
 <title>해시태그 복사</title>
 
+<style>
+
+body{
+text-align:center;
+margin-top:120px;
+font-family:sans-serif;
+background:#f5f7fb;
+}
+
+button{
+background:linear-gradient(135deg,#000000,#434343);
+color:white;
+border:none;
+padding:18px 36px;
+font-size:18px;
+font-weight:600;
+border-radius:14px;
+cursor:pointer;
+box-shadow:0 10px 25px rgba(0,0,0,0.2);
+transition:all 0.2s ease;
+}
+
+button:hover{
+transform:translateY(-3px);
+box-shadow:0 14px 30px rgba(0,0,0,0.25);
+}
+
+button:active{
+transform:scale(0.96);
+box-shadow:0 6px 15px rgba(0,0,0,0.2);
+}
+
+#msg{
+margin-top:20px;
+font-size:16px;
+color:#333;
+font-weight:500;
+}
+
+</style>
+  
 <script>
 
 function copyText() {
@@ -37,11 +78,11 @@ document.getElementById("msg").innerText = "해시태그가 복사 되었습니�
 
 </head>
 
-<body style="text-align:center; margin-top:120px; font-family:sans-serif;">
+<body>
 
-<h2>해시태그 복사</h2>
+<h2>삼성 AI 가전 후기 이벤트</h2>
 
-<button onclick="copyText()" style="padding:16px 32px; font-size:18px;">
+<button onclick="copyText()">
 해시태그 복사하기
 </button>
 
