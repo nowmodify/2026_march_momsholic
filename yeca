@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>해시태그 복사</title>
+
+<script>
+function copyText() {
+  navigator.clipboard.writeText("#신혼가전선택꿀팁 #삼성AI가전후기이벤트 #삼성AI신혼가전 #BespokeAI가전 #비스포크AI가전 #삼성AI가전이바꾼신혼 #비스포크AI하이브리드 #비스포크AI패밀리허브 #비스포크AI냉장고 #비스포크AI하이브리드키친핏Max #비스포크AI김치플러스 #비스포크AI정수기#비스포크AI식기세척기 #비스포크AI인덕션 #비스포크AI후드Air #비스포크AI콤보 #비스포크AI원바디 #비스포크AI세탁기 #비스포크AI건조기 #비스포크AI에어드레서 #비스포크AI제트 #비스포크AI스팀 #비스포크AI무풍콤보갤러리 #비스포크AI무풍갤러리 #비스포크AI무풍클래식 #삼성AITV #삼성MicroRGB #삼성OLED #무빙스타일 #삼성전자 #삼성전자이벤트 #스마트싱스 #삼성AI가전이바꾼일상_By예카");
+  alert("복사되었습니다!");
+}
+</script>
+
+</head>
+
+<body style="text-align:center; margin-top:100px; font-family:sans-serif;">
+
+<h2>아래 버튼을 눌러 해시태그를 복사해주세요!</h2>
+
+<button onclick="copyText()" style="padding:15px 30px; font-size:16px;">
+해시태그 복사하기
+</button>
+
+</body>
+</html>
